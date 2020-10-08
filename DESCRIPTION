@@ -1,0 +1,29 @@
+Package: stsmodel
+Type: Package
+Title: Do the hhh4 model and make maps and plots
+Version: 1.0
+Date: 2020-06-04
+Author: Barry Rowlingson
+Maintainer: Barry Rowlingson <b.rowlingson@lancaster.ac.uk>
+Description: Fit the model for covid-19 cases. Model code by
+	     Claudio Fronterre and Chris Jewell.
+License: GPL (>= 2)
+Depends:
+  data.table,
+  openxlsx,
+  dplyr,
+  readr,
+  tidyr,
+  abind,
+  tmaptools,
+  reshape2,
+  sf,
+  surveillance,
+  sp,
+  timeDate,
+  readxl,
+  hhh4addon,
+  ggplot2,
+  plotly,
+  leaflet,
+  htmltools
